@@ -70,7 +70,7 @@ class Highmap(object):
 
         # set CSS src
         self.CSSsource = [
-            # 'https://www.highcharts.com/highslide/highslide.css',
+            'https://code.highcharts.com/css/themes/grid-light.css',
         ]
         # Set data
         self.data = []
