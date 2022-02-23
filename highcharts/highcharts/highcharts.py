@@ -385,9 +385,12 @@ class Highchart(object):
 
         self.div_name = self.options['chart'].__dict__[
             'renderTo']  # recheck div name
+        # self.container = self.containerheader + \
+        #     '<div id="%s" style="%s">%s</div>\n' % (
+        #         self.div_name, self.div_style, self.loading)
         self.container = self.containerheader + \
             '<div id="%s" style="%s">%s</div>\n' % (
-                self.div_name, self.div_style, self.loading)
+                self.div_name, "height: 100vh", self.loading)
 
     @property
     def htmlcontent(self):
