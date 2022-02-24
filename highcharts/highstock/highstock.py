@@ -68,8 +68,7 @@ class Highstock(object):
 
         # set CSS src
         self.CSSsource = [
-            'https://www.highcharts.com/highslide/highslide.css',
-
+            'http://fonts.googleapis.com/css?family=Roboto',
         ]
         # set data
         self.data = []
